@@ -55,7 +55,7 @@ Screenshots coming soon.
 
 Trace applies cursor changes at runtime using low-level cursor patching techniques.
 
-Internally, Trace uses the **Mousecloak backend**, which makes it compatible with the `.cape` cursor bundle format originally introduced by Mousecape.
+Internally, Trace uses the **Mousecloak backend**, which makes it compatible with the `.cape` cursor bundle format originally introduced by [Mousecape](https://github.com/alexzielenski/Mousecape).
 
 Cursor data can be loaded from individual files or from `.cape` bundles and mapped to macOS cursor roles through Trace’s UI.
 
@@ -76,7 +76,7 @@ Currently supported:
 - **`.ani`** — Windows animated cursors  
 - **`.png` / `.tiff`** — Image-based cursors  
   *(hotspot may require manual adjustment)*  
-- **`.cape`** — Cursor themes using the Mousecape format  
+- **`.cape`** — Cursor themes using the [Mousecape](https://github.com/alexzielenski/Mousecape) format  
 - **Windows cursor packs with `install.inf`** — can be imported and converted into themes
 
 ---
@@ -101,7 +101,7 @@ While Trace aims to support common layouts, successful conversion **cannot be gu
 
 ### Themes & `.cape` files
 
-In Trace, Mousecape `.cape` files are treated as **themes**.
+In Trace, [Mousecape](https://github.com/alexzielenski/Mousecape) `.cape` files are treated as **themes**.
 
 When you import a `.cape` file, it will appear in the **Themes** section of Trace rather than as individual cursor files.
 
@@ -111,7 +111,7 @@ This allows Trace to keep related cursors grouped together and mapped consistent
 
 ### Background & Credits
 
-Trace builds upon concepts originally introduced by **Mousecape**.
+Trace builds upon concepts originally introduced by **[Mousecape](https://github.com/alexzielenski/Mousecape)**.
 
 Mousecape was created by **Alex Zielenski** and established the `.cape` cursor bundle format.  
 Trace reuses this format via the Mousecloak backend while providing a different UI approach and an updated workflow.
