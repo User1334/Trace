@@ -73,7 +73,11 @@ If something looks wrong:
 Currently supported:
 
 - **`.cur`** — Windows static cursors  
-- **`.ani`** — Windows animated cursors  
+- **`.ani`** — Windows animated cursors <br>
+  **Note:**
+  Trace supports animated cursors with up to **24 frames**.
+  Cursors exceeding this limit will not be applied due to observed
+limitations when applying animated cursors on macOS.
 - **`.png` / `.tiff`** — Image-based cursors  
   *(hotspot may require manual adjustment)*  
 - **`.cape`** — Cursor themes using the [Mousecape](https://github.com/alexzielenski/Mousecape) format  
