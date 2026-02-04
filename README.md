@@ -31,7 +31,9 @@ Instead of hiding cursor files behind technical steps, Trace presents them in a 
 
 ### Preview
 
-Screenshots coming soon.
+Trace with Applied Theme
+
+<img width="712" height="784" alt="Picture" src="https://github.com/user-attachments/assets/c9116d1c-7aad-4710-97f4-12113ece3bcd" />
 
 ---
 
