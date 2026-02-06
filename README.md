@@ -29,6 +29,21 @@ Instead of hiding cursor files behind technical steps, Trace presents them in a 
 
 ---
 
+### Loaded Cursors
+
+The **Loaded Cursors** section is primarily used to visually match cursor files to their intended system roles.
+
+Cursor files (`.cur`, `.ani`, `.png`, `.tiff`) can be dropped here to inspect how they look and behave, making it easier to decide which cursor belongs to which role before assigning it.
+
+This is especially useful for Windows cursor formats, where file names alone are often not sufficient to determine their purpose.
+
+Cursors placed in this section are **not applied** and do not modify the active cursor set.  
+They serve purely as a visual reference during the mapping process.
+
+From this section, cursors can be assigned to individual system roles via **drag & drop**.
+
+---
+
 ### Preview
 
 Trace with Applied Theme
