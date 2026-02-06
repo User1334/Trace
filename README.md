@@ -29,7 +29,7 @@ Instead of hiding cursor files behind technical steps, Trace presents them in a 
 
 ---
 
-### Loaded Cursors
+### Workflow: Loaded Cursors
 
 The **Loaded Cursors** section is primarily used to visually match cursor files to their intended system roles.
 
